@@ -1,0 +1,15 @@
+alpha 
+bravo
+businessman
+charlie 
+delta
+congressman
+echo
+foxtrot
+husband
+golf
+hotel
+wife
+indigo
+juliet
+

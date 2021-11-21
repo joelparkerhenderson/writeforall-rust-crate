@@ -30,7 +30,7 @@ Create a file `tip.json` with this text:
 ```json
 {
     "search": ["men", "women"], 
-    "suggest": ["people", "persons"]
+    "suggest": ["people"]
 }
 ```
 
@@ -55,7 +55,7 @@ writeforall --tip tip.json --input example.txt
 The result is this output:
 
 ```html
-example.txt  4  men  person, people
+example.txt  4  men  people
 ```
 
 The command line option can process multiple items such as:

@@ -1,0 +1,28 @@
+[package]
+name = "writeforall"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+assertables = "*" # Assertables for testing
+clap = { version = "3.0.0-beta.4", features = ["regex", "yaml", "wrap_help"] } # Command Line Argument Parser
+confy = "0.4.0" # Boilerplate-free configuration management
+dotenv = "0.9.0" # A `dotenv` implementation for Rust.
+env_logger = "0.8.3" # A logger that can be configured via environment variables
+error-chain = "0.12.4" # Consistent error handling
+glob = "0.3.0" # Support for matching file paths against Unix shell style patterns
+log = "0.4.0" # A Rust library providing a lightweight logging facade
+json = "0.12.4" # JSON parser
+heck = "*" # Case conversion library. 
+lazy_static = "1.4.0" # A macro for declaring lazily evaluated statics
+once_cell = "1.7.2" # Single assignment cells and lazy values
+regex = "*" # Regular expressions implementation for Rust. 
+serde = { version = "*", features = ["derive"] } # Serializing/deserializing Rust data structures.
+serde_json = { version = "*", features = ["arbitrary_precision"] } # Serde JSON serialization file format.
+strsim = "*" # String similarity metrics
+unicode-segmentation = "1.7.1" #  Iterators which split strings on graphemes, words, etc.
+url = "2.2.2" # URL library for Rust, based on the WHATWG URL Standard
+version_check = "*" # Check the version of the installed/running rustc. 
+walkdir = "*" # Recursively walk a directory. 
